@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	Send-Test
-Summary:	Email::Send::Test - Captures emails sent via Email::Send for testing
-#Summary(pl):	
+Summary:	Email::Send::Test - captures emails sent via Email::Send for testing
+Summary(pl):	Email::Send::Test - przechwytuje dla testu wiadomo¶ci wysy³ane za pomoc± Email::Send
 Name:		perl-Email-Send-Test
 Version:	0.01
 Release:	1
@@ -27,14 +27,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Email::Send::Test is a module for testing applications that use
 Email::Send to send email. In particular, it kind of assumes that you
-use some sort of configuration file to specify the "channel" to dispatch
-mail to, or something else that can be easily overloaded or altered in
-the test script.
+use some sort of configuration file to specify the "channel" to
+dispatch mail to, or something else that can be easily overloaded or
+altered in the test script.
 
 Email::Send::Test is simple a trap. As emails come in, it just puts
-them onto an array totally intact as it was given them. If you send one
-email, there will be one in the trap. If you send 20, there will be 20,
-and so on.
+them onto an array totally intact as it was given them. If you send
+one email, there will be one in the trap. If you send 20, there will
+be 20, and so on.
 
 # %description -l pl
 # TODO
