@@ -36,8 +36,17 @@ them onto an array totally intact as it was given them. If you send
 one email, there will be one in the trap. If you send 20, there will
 be 20, and so on.
 
-# %description -l pl
-# TODO
+%description -l pl
+Email::Send::Test to modu³ do testowania aplikacji u¿ywaj±cych modu³u
+Email::Send do wysy³ania poczty elektronicznej. W szczególno¶ci
+zak³ada, ¿e w u¿yciu jest jaki¶ rodzaj pliku konfiguracyjnego do
+podania "kana³u" przekazywania listów albo co¶ podobnego, co mo¿na
+³atwo przykryæ albo zmieniæ w skrypcie testowym.
+
+Email::Send::Test to po prostu pu³apka. Kiedy listy przychodz±, s±
+umieszczane w tablicy w nietkniêtej postaci. W przypadku wys³ania
+jednego listu w pu³apce bêdzie jeden. W przypadku wys³ania 20, bêdzie
+20 i tak dalej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
