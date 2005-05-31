@@ -8,13 +8,13 @@
 Summary:	Email::Send::Test - captures emails sent via Email::Send for testing
 Summary(pl):	Email::Send::Test - przechwytuje dla testu wiadomo¶ci wysy³ane za pomoc± Email::Send
 Name:		perl-Email-Send-Test
-Version:	0.01
+Version:	0.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	45ee3056a82fd49b81eda7ac5e3ea91b
+# Source0-md5:	e7b1ff3a5740fe3b61bb3ae30337f90d
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.24-2
