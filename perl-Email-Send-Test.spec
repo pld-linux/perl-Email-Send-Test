@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Send-Test
 Summary:	Email::Send::Test - captures emails sent via Email::Send for testing
-Summary(pl):	Email::Send::Test - przechwytuje dla testu wiadomo¶ci wysy³ane za pomoc± Email::Send
+Summary(pl.UTF-8):   Email::Send::Test - przechwytuje dla testu wiadomoÅ›ci wysyÅ‚ane za pomocÄ… Email::Send
 Name:		perl-Email-Send-Test
 Version:	0.02
 Release:	1
@@ -36,16 +36,16 @@ them onto an array totally intact as it was given them. If you send
 one email, there will be one in the trap. If you send 20, there will
 be 20, and so on.
 
-%description -l pl
-Email::Send::Test to modu³ do testowania aplikacji u¿ywaj±cych modu³u
-Email::Send do wysy³ania poczty elektronicznej. W szczególno¶ci
-zak³ada, ¿e w u¿yciu jest jaki¶ rodzaj pliku konfiguracyjnego do
-podania "kana³u" przekazywania listów albo co¶ podobnego, co mo¿na
-³atwo przykryæ albo zmieniæ w skrypcie testowym.
+%description -l pl.UTF-8
+Email::Send::Test to moduÅ‚ do testowania aplikacji uÅ¼ywajÄ…cych moduÅ‚u
+Email::Send do wysyÅ‚ania poczty elektronicznej. W szczegÃ³lnoÅ›ci
+zakÅ‚ada, Å¼e w uÅ¼yciu jest jakiÅ› rodzaj pliku konfiguracyjnego do
+podania "kanaÅ‚u" przekazywania listÃ³w albo coÅ› podobnego, co moÅ¼na
+Å‚atwo przykryÄ‡ albo zmieniÄ‡ w skrypcie testowym.
 
-Email::Send::Test to po prostu pu³apka. Kiedy listy przychodz±, s±
-umieszczane w tablicy w nietkniêtej postaci. W przypadku wys³ania
-jednego listu w pu³apce bêdzie jeden. W przypadku wys³ania 20, bêdzie
+Email::Send::Test to po prostu puÅ‚apka. Kiedy listy przychodzÄ…, sÄ…
+umieszczane w tablicy w nietkniÄ™tej postaci. W przypadku wysÅ‚ania
+jednego listu w puÅ‚apce bÄ™dzie jeden. W przypadku wysÅ‚ania 20, bÄ™dzie
 20 i tak dalej.
 
 %prep
