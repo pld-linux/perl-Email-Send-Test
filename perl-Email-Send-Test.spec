@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Email
 %define	pnam	Send-Test
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Send::Test - captures emails sent via Email::Send for testing
 Summary(pl.UTF-8):	Email::Send::Test - przechwytuje dla testu wiadomości wysyłane za pomocą Email::Send
 Name:		perl-Email-Send-Test
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e7b1ff3a5740fe3b61bb3ae30337f90d
+URL:		http://search.cpan.org/dist/Email-Send-Test/
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.24-2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-ExtUtils-MakeMaker >= 6.24-2
 %if %{with tests}
 BuildRequires:	perl-Email-Send >= 1.42
 %endif
