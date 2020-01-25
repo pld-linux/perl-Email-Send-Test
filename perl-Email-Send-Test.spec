@@ -4,7 +4,6 @@
 
 %define	pdir	Email
 %define	pnam	Send-Test
-%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Send::Test - captures emails sent via Email::Send for testing
 Summary(pl.UTF-8):	Email::Send::Test - przechwytuje dla testu wiadomości wysyłane za pomocą Email::Send
 Name:		perl-Email-Send-Test
